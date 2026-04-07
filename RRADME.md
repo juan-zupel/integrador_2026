@@ -7,51 +7,51 @@
     conciste en que una persona experimentada te de consejos o te guíe, ya sea durante o despues de cada partida).
 
 ##Estructura
-<HTML>
-    <head>
-        <titulo>
-    <head>
-    <budy>
-        <header>
-            <titulo>
-            <nav>
-        <header>
-        <main>
-            <titulo>
-            <texto>
-            <lista_por_posicion>
-                <lista_por_campeon>
-                    <contenido>
-                <lista_por_campeon>
-            <lista_por_posicion>
+HTML
+    head
+        titulo
+    head
+    budy
+        header
+            titulo
+            nav
+        header
+        main
+            titulo
+            texto
+            lista_por_posicion
+                lista_por_campeon
+                    contenido
+                lista_por_campeon
+            lista_por_posicion
             <>
-            <lista_por_posicion>
-                <lista_por_campeon>
-                    <contenido>
-                <lista_por_campeon>
-            <lista_por_posicion>
+            lista_por_posicion
+                lista_por_campeon
+                    contenido
+                lista_por_campeon
+            lista_por_posicion
             <>
-            <lista_por_posicion>
-                <lista_por_campeon>
-                    <contenido>
-                <lista_por_campeon>
-            <lista_por_posicion>
+            lista_por_posicion
+                lista_por_campeon
+                    contenido
+                lista_por_campeon
+            lista_por_posicion
             <>
-            <lista_por_posicion>
-                <lista_por_campeon>
-                    <contenido>
-                <lista_por_campeon>
-            <lista_por_posicion>
+            lista_por_posicion
+                lista_por_campeon
+                    contenido
+                lista_por_campeon
+            lista_por_posicion
             <>
-            <titulo_de_formulario>
-            <link_formulario>
-        <main>
-        <footer>
-            <información_de_contacto>
-            <link_de_regreso_al_inicio>
-        <footer>
-    <budy>
-<HTML>
+            titulo_de_formulario
+            link_formulario
+        main
+        footer
+            información_de_contacto
+            link_de_regreso_al_inicio
+        footer
+    budy
+HTML
 
 ##Contenido
 - breve explicación del juego
