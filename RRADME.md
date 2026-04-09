@@ -6,60 +6,15 @@
     al videojuego "League of Legends" dando ademas a los usuarios la opción de coacheo (el coacheo
     conciste en que una persona experimentada te de consejos o te guíe, ya sea durante o despues de cada partida).
 
-##Estructura
-HTML
-    head
-        titulo
-    head
-    budy
-        header
-            titulo
-            nav
-        header
-        main
-            titulo
-            texto
-            lista_por_posicion
-                lista_por_campeon
-                    contenido
-                lista_por_campeon
-            lista_por_posicion
-            <>
-            lista_por_posicion
-                lista_por_campeon
-                    contenido
-                lista_por_campeon
-            lista_por_posicion
-            <>
-            lista_por_posicion
-                lista_por_campeon
-                    contenido
-                lista_por_campeon
-            lista_por_posicion
-            <>
-            lista_por_posicion
-                lista_por_campeon
-                    contenido
-                lista_por_campeon
-            lista_por_posicion
-            <>
-            titulo_de_formulario
-            link_formulario
-        main
-        footer
-            información_de_contacto
-            link_de_regreso_al_inicio
-        footer
-    budy
-HTML
-
 ##Contenido
 - breve explicación del juego
+- espacio publicitario
 - guias separadas por personajes y posciciones, incluye tambien:
     + imagenes
-    + cusdros comparativos
+    + cuadros comparativos
     + observaciones
 - formulario de inscripción para coacheo
+- informacion de contacto
 
 ##Autor
 - Juan Zupel
