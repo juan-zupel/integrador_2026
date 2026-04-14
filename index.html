@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guía LOL</title>
     <link rel="shortcut icon" href="C:\Users\Usuario\Desktop\programacion 3\practicos\integrador\icono LOL.png">
+    <link rel="stylesheet" href="stilo.css">
 </head>
 <body>
     <header>
         <h1>Guía Definitiva para League of Legends </h1>
         <br>
         <fieldset>
+            <!--Aqui se agrupan los enlaces internos de la pagina principal (ya despues le hago una interfaz facha)-->
             <h2 id="guias">Guías:</h2>
             <nav>
                 <ul>
@@ -52,19 +54,24 @@
             posibilidades que ofrecen los videojuegos.
         </fieldset>
         <br>
-        <aside>
+        <!--este espacio está pensado para ser usado como sponsor publicitario, la idea es colocar un video y un enlace a una 
+        pagina externa y que estos mismos esten siempre a la vista en la parte derecha de la pantalla-->
+        <aside class="espacio-publicidad">
             <div>
-               <video src="C:\Users\Usuario\Desktop\programacion 3\practicos\integrador\videos\videoplayback.mp4"></video>
+               <video class="video-publicidad" src="C:\Users\Usuario\Desktop\programacion 3\practicos\integrador\videos\videoplayback.mp4"></video>
                 <br>
                 <a href="https://albiononline.com/home">Visitar</a> 
             </div>
             <!--<div>
-                <video src=""C:\Users\Usuario\Desktop\programacion 3\practicos\integrador\videos\videoplayback_lol.mp4""></video>
+                <video class="video-publicidad" src=""C:\Users\Usuario\Desktop\programacion 3\practicos\integrador\videos\videoplayback_lol.mp4""></video>
                 <br>
                 <a href="https://www.riotgames.com/es">Visitar</a>
             </div>-->
             </aside>
         <br><br> <br><br><br>
+        <!--aqui la idea es crear 2 listas anidadas, la primera para separar las 5 posiciones existentes dentro del juego y la segunda
+        para separar a cada campeon y su respectiva build dentro de esa posicion (asi pueden haber varias guias del mismo campeon dentro
+        de una linea pero cambiando la build)-->
         <h2 id="guia_top">Guía_TOP</h2>
         <ul>
                  <li>
@@ -88,7 +95,7 @@
                                     escale hacia un rol de utilidad clave en peleas grupales, donde su impacto supera al de muchos 
                                     picks tradicionales.
                                 </p>
-                                <img src="https://t3.ftcdn.net/jpg/04/19/17/68/360_F_419176802_9s4AoYMfzxDt3kaSYV55whCkTB76NsHN.jpg" alt="imagen de ejmplo 1" width="600" height="150">
+                                <img class="build" src="https://t3.ftcdn.net/jpg/04/19/17/68/360_F_419176802_9s4AoYMfzxDt3kaSYV55whCkTB76NsHN.jpg" alt="imagen de ejmplo 1" width="600" height="150">
                             </li>
                             <li>
                                 <h4>In Game</h4>
@@ -173,11 +180,11 @@
                                     a los aliados a los que se une, mejorando su velocidad de ataque y daño en peleas. Las Botas 
                                     Jonias de la Lucidez son clave para reducir enfriamientos y usar habilidades con mayor frecuencia.
                                     De forma situacional, Mikael ayuda a eliminar control de masas de aliados, mientras 
-                                    que Putrificador Quimtech es útil contra equipos con mucha curación.
+                                    que Morellonomicon es útil contra equipos con mucha curación.
                                     En conjunto, esta build transforma a Yuumi en un jungla de apoyo, cuyo valor no está en 
                                     el farmeo sino en potenciar a su equipo y facilitar jugadas.
                                 </p>
-                                <img src="https://t3.ftcdn.net/jpg/04/19/17/68/360_F_419176802_9s4AoYMfzxDt3kaSYV55whCkTB76NsHN.jpg" alt="imagen de ejmplo 1" width="600" height="150">
+                                <img class="build" src="https://t3.ftcdn.net/jpg/04/19/17/68/360_F_419176802_9s4AoYMfzxDt3kaSYV55whCkTB76NsHN.jpg" alt="imagen de ejmplo 1" width="600" height="150">
                             </li>
                             <li>
                                 <h4>In Game</h4>
@@ -258,13 +265,13 @@
                                     El Manamune es fundamental para resolver su problema de maná y escalar daño físico 
                                     de manera eficiente. Diente de Nashor potencia la velocidad de ataque y activa su estilo 
                                     híbrido, permitiendo combinar autos y habilidades de forma letal. Para resistir el daño 
-                                    enemigo, la Corona de la Reina Quebrada proporciona supervivencia contra burst y movilidad 
+                                    enemigo, el Agrietador proporciona supervivencia en peleas largas y daño  
                                     adicional, mientras que el Reloj de Arena de Zhonya le permite entrar o salir de combates 
                                     peligrosos sin ser eliminada.
                                     Esta combinación permite que Kai’Sa mid sea versátil: puede hostigar a distancia, eliminar 
                                     objetivos clave con su ultimate y mantenerse segura frente a asesinos o magos enemigos.
                                 </p>
-                                <img src="https://t3.ftcdn.net/jpg/04/19/17/68/360_F_419176802_9s4AoYMfzxDt3kaSYV55whCkTB76NsHN.jpg" alt="imagen de ejmplo 1" width="600" height="150">
+                                <img class="build" src="https://t3.ftcdn.net/jpg/04/19/17/68/360_F_419176802_9s4AoYMfzxDt3kaSYV55whCkTB76NsHN.jpg" alt="imagen de ejmplo 1" width="600" height="150">
                             </li>
                             <li>
                                 <h4>In Game</h4>
@@ -349,7 +356,7 @@
                                     En conjunto, esta build convierte a Volibear en un soporte agresivo y resistente, capaz de iniciar 
                                     peleas, controlar al enemigo y mantener a su ADC seguro durante toda la partida.
                                 </p>
-                                <img src="https://t3.ftcdn.net/jpg/04/19/17/68/360_F_419176802_9s4AoYMfzxDt3kaSYV55whCkTB76NsHN.jpg" alt="imagen de ejmplo 1" width="600" height="150">
+                                <img class="build" src="https://t3.ftcdn.net/jpg/04/19/17/68/360_F_419176802_9s4AoYMfzxDt3kaSYV55whCkTB76NsHN.jpg" alt="imagen de ejmplo 1" width="600" height="150">
                             </li>
                             <li>
                                 <h4>In Game</h4>
@@ -435,7 +442,7 @@
                                     daño elevado desde la retaguardia, hostigar a los rivales constantemente y mantener presencia 
                                     estratégica en peleas grupales.
                                 </p>
-                                <img src="https://t3.ftcdn.net/jpg/04/19/17/68/360_F_419176802_9s4AoYMfzxDt3kaSYV55whCkTB76NsHN.jpg" alt="imagen de ejmplo 1" width="600" height="150">
+                                <img class="build" src="https://t3.ftcdn.net/jpg/04/19/17/68/360_F_419176802_9s4AoYMfzxDt3kaSYV55whCkTB76NsHN.jpg" alt="imagen de ejmplo 1" width="600" height="150">
                             </li>
                             <li>
                                 <h4>In Game</h4>
