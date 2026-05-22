@@ -465,7 +465,7 @@ footer h3 {
 
 /* SEGMENTO RESPONSIVE ---------------------------------------------------------------------------------------------------- */
 
-/* @media (max-width: 768px) and (min-width: 481px) {
+@media (max-width: 768px) and (min-width: 481px) {
     .clase_responsive {
         width: 100%;
     }
@@ -613,4 +613,4 @@ footer h3 {
     #btn_vovler {
         text-align: center;
     }
-} */
+}
