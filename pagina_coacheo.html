@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" class="html_form">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilo.css">
+    <title>Registro_coacheo</title>
+</head>
+<body class="body_pagina_coacheo">
+    <header>
+        <h1 class="titulo"><div class="texto_titulo">Formulario de inscripción</div></h1>
+        <div class="sub-tit-form">
+            <h3>Por favor complete todo el formulario para inscribirse al sistema de coacheo</h3>
+            <a href="index.html" class="enlaces_principales">Volver a la Página Principal</a>
+        </div>
+    </header>
+    <main class="pagina_coacheo">
+        <br>
+        <form aria-required="true">
+            <fieldset class="fieldset">
+                <label for=""><strong>Nombre</strong></label>
+                <br>
+                <input class="input-txt" required="true" type="text">
+                <br>
+                <br>
+                <label for=""><strong>Email</strong></label>
+                <br>
+                <input class="input-txt" required="true" type="email">
+                <br>
+                <br>
+                <label for=""><strong>Contraseña</strong></label>
+                <br>
+                <input class="input-txt" required="true" type="password">
+                <br>
+                <br>
+                <label for=""><strong>Region</strong></label>
+                <br>
+                <br>
+                <div class="input-elec">
+                    <label><input type="radio" name="region_1" value="america_sur">America_Sur</label>
+                    <label><input type="radio" name="region_2" value="america_norte">America_Norte</label>
+                    <label><input type="radio" name="region_3" value="europa">Europa</label>
+                    <label><input type="radio" name="region_4" value="asia">Asia</label>
+                </div>
+                <br>
+                <br>
+                <br>
+                <label for=""><strong>Tipo de Coach</strong></label>
+                <br>
+                <br>
+                <div class="input-elec">
+                    <label><input type="radio" name="t_coach_1" value="virtual">Virtual</label>
+                    <label><input type="radio" name="t_coach_2" value="presencial">Presencial</label>
+                </div>
+                <br>
+                <br>
+                <br>
+                <label for=""><strong>Coach</strong></label>
+                <br>
+                <br>
+                <div class="input-elec">
+                    <label><input type="radio" name="coach_1" value="pochipum">Pochipum</label>
+                    <label><input type="radio" name="coach_2" value="elmillor">Elmillor</label>
+                    <label><input type="radio" name="coach_3" value="motroco">motroco</label>
+                    <label><input type="radio" name="coach_4" value="ojo_ninja">Ojo_Ninja</label>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="objetivo-form">
+                    <label for=""><strong>Objetivo</strong></label>
+                    <p>(Escriba aquí su objetivo al pedir este servicio)</p>
+                </div>
+                <input class="input-txt" type="text">
+                <br><br><br>
+                <input type="submit" value="confirmar" class="boton-form" id="btn-form-1">
+                <input type="reset" value="borrar" class="boton-form" id="btn-form-2">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
