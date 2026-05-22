@@ -139,7 +139,7 @@ nav {
 }
 
 /* MAIN --------------------------------------------------------------------------------------------------------------- */
-/* main {
+main {
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -160,11 +160,10 @@ nav {
     border: var(--color-dorado);
     width: 80%;
     margin: auto;
-} */
-
+}
 
 /* ASIDE -------------------------------------------------------------------------------------------------------------- */
-/* .espacio-publicidad {
+.espacio-publicidad {
     position: relative;
     width: 100%;
     grid-area: public;
@@ -193,10 +192,10 @@ nav {
 
 .publicidad-individual {
     margin-top: 60px;
-} */
+}
 
 /* CONTENIDO DE TUTORIALES ------------------------------------------------------------------------------------------- */
-/* .contenido-1 {
+.contenido-1 {
     grid-area: contenido-1;
     padding: 25px;
     border-bottom: 1px solid white;
@@ -272,10 +271,10 @@ nav {
     background-size: contain;
     list-style-position: inside;
     margin-right: 8px;
-} */
+}
 
 /* ENLACE A PAGINA DE FORMULARIO -------------------------------------------------------------------------------------- */
-/* .formulario {
+.formulario {
     width: 100%;
     grid-area: formulario;
     padding: 20px;
@@ -286,10 +285,10 @@ nav {
 
 .formulario p {
     font-size: 19px;
-} */
+}
 
 /* PAGINA DE FORMULARIO ----------------------------------------------------------------------------------------------- */
-/* .html_form {
+.html_form {
     position: absolute;
     width: 100%;
 }
@@ -375,10 +374,10 @@ form label {
 
 .body_pagina_coacheo {
     width: 100%;
-} */
+}
 
 /* FOOTER ------------------------------------------------------------------------------------------------------------- */
-/* footer {
+footer {
     position: relative;
     width: 100%;
     margin: 0;
@@ -462,7 +461,7 @@ footer h3 {
 
 .info_foot_2 a {
     background-color: var(--color-azul);
-} */
+}
 
 /* SEGMENTO RESPONSIVE ---------------------------------------------------------------------------------------------------- */
 
