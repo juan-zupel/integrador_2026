@@ -1,0 +1,617 @@
+/*VARIABLES -------------------------------------------------------------------------------------------------------------- */
+/* :root {
+    --color-dorado: rgb(227, 227, 14);
+    --color-fondo: rgb(31, 28, 35);
+    --color-azul: rgb(28, 51, 164);
+    --color-azul-claro: rgb(97, 152, 240);
+}
+
+.cinzel-cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/*ATRIBUTOS GENERALES ---------------------------------------------------------------------------------------------------- */
+/* * {
+    background-color: var(--color-fondo);
+}
+
+html {
+    position: absolute;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.enlaces_secundarios {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-dorado);
+    font-size: 17px;
+    transition: transform 1s ease, color 0.3s ease;
+}
+
+.enlaces_secundarios:hover {
+    cursor: pointer;
+    color: rgb(249, 216, 4);
+    transform: scale(1.1);
+}
+
+.enlaces_principales {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    margin: 7px;
+    text-align: center;
+}
+
+.enlaces_principales:hover {
+    color: rgb(244, 244, 96);
+    border: 2px solid var(--color-dorado);
+    padding: 5px;
+    background-color: var(--color-azul);
+    border-radius: 6px;
+}
+
+.titulos_generales {
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'cinzel';
+    background-image: url(imagenes/textura_oro.jpg);
+    background-size: contain;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    filter: brightness(2);
+} */
+
+/* HEADER ------------------------------------------------------------------------------------------------------------- */
+/* header {
+    width: 100%;
+    position: relative;
+    margin-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+.titulo {
+    display: block;
+    background-image: url(imagenes/textura_azul.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: saturate(4);
+    filter:brightness(1);
+    margin: 0;
+    padding: 15px;
+    border-radius: 10px;
+    border: 4px solid var(--color-dorado);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+.texto_titulo {
+    font-family: 'Cinzel';
+    text-align: center;
+    font-size: 60px;
+    background-image: url(imagenes/textura_oro.jpg);
+    background-size: contain;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    filter: brightness(2);
+}
+
+header h2 {
+    color: var(--color-dorado);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.barra_nav {
+    padding: 20px 10px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav {
+    display: inline-block;
+    word-spacing: 12px;
+}
+
+.simbolo_despliege {
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+.btn_despliege {
+    display: none;
+    user-select: none;
+} */
+
+/* MAIN --------------------------------------------------------------------------------------------------------------- */
+/* main {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 5px;
+    color: white;
+    display: grid;
+    grid-template-areas:
+    "public contenido-1"
+    "public contenido-2"
+    "formulario formulario";
+    grid-template-columns: 180px 1fr;
+    grid-template-rows: auto auto auto;
+    margin: 0;
+}
+
+.tabla-machups {
+    color: white;
+    border: var(--color-dorado);
+    width: 80%;
+    margin: auto;
+} */
+
+
+/* ASIDE -------------------------------------------------------------------------------------------------------------- */
+/* .espacio-publicidad {
+    position: relative;
+    width: 100%;
+    grid-area: public;
+    border: 2px solid var(--color-dorado);
+    background-color: var(--color-azul);
+    border-radius: 10px 0 10px 0;
+    padding: 30px 5px 30px 5px;
+}
+
+.espacio-publicidad a {
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    background-color: var(--color-azul);
+    padding-top: 15px;
+}
+
+.espacio-publicidad video {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+    background-color: var(--color-azul);
+}
+
+.publicidad-individual {
+    margin-top: 60px;
+} */
+
+/* CONTENIDO DE TUTORIALES ------------------------------------------------------------------------------------------- */
+/* .contenido-1 {
+    grid-area: contenido-1;
+    padding: 25px;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    font-style: italic;
+    overflow: hidden;
+}
+
+.contenido-2 {
+    grid-area: contenido-2;
+    padding: 20px;
+    text-align: justify;
+}
+
+.segmento-guia {
+    border: 5px ridge var(--color-dorado);
+    background-color: var(--color-azul-claro);
+    margin: 15px;
+    padding: 15px;
+    border-radius: 40px 0 40px 0;
+    list-style: none;
+    box-shadow: 7px 7px 20px rgba(231, 225, 144, 0.619);
+}
+
+.segmento-guia ul {
+    background-color: var(--color-azul-claro);
+}
+
+.segmento-guia p{
+    background-color: var(--color-azul-claro);
+    color: var(--color-fondo);
+}
+
+.segmento-guia h4 {
+    font-size: 20px;
+    color: var(--color-dorado);
+    list-style:none;
+    background-color: var(--color-azul-claro);
+}
+
+.segmento-guia h3 {
+    font-size: 30px;
+    background-color: var(--color-azul-claro);
+    color: var(--color-fondo);
+}
+
+.segmento {
+    border-top: 2px solid var(--color-dorado);
+    background-color: var(--color-azul-claro);
+    color: black;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    list-style: none;
+    overflow: hidden;
+}
+
+.build {
+    display: block;
+    margin: 10px auto 15px auto;
+    border: 4px ridge var(--color-dorado);
+    border-radius: 25px 0 20px 0;
+    filter: saturate(1.5)
+}
+
+.segmento h4::before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    align-items: center;
+    background-image: url(imagenes/emote_de_etho_aurora.jpg);
+    border-radius: 8px;
+    background-size: contain;
+    list-style-position: inside;
+    margin-right: 8px;
+} */
+
+/* ENLACE A PAGINA DE FORMULARIO -------------------------------------------------------------------------------------- */
+/* .formulario {
+    width: 100%;
+    grid-area: formulario;
+    padding: 20px;
+    text-align: justify;
+    border-top: 1px solid white;
+    margin-bottom: 0;
+}
+
+.formulario p {
+    font-size: 19px;
+} */
+
+/* PAGINA DE FORMULARIO ----------------------------------------------------------------------------------------------- */
+/* .html_form {
+    position: absolute;
+    width: 100%;
+}
+
+.sub-tit-form {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 22px;
+}
+
+.fieldset {
+    border: 2px solid var(--color-dorado);
+    border-radius: 40px 0 40px 0;
+    padding: 25px;
+    margin: 10px;
+}
+
+.input-txt {
+    width: 200px;
+    height: 20px;
+}
+
+.input-elec {
+    font-size: 18px;
+    word-spacing: 25px;
+}
+
+form input {
+    background-color: white;
+    margin-bottom: 15px;
+    
+}
+
+.objetivo-form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+form label {
+    font-size: 20px;
+    color: var(--color-dorado);
+}
+
+#btn-form-1 {
+    color: white;
+    font-size: 15px;
+    border: 1px solid rgb(4, 175, 4);
+    background-color: rgb(4, 175, 4);
+    border-radius: 10px 0 10px 0;
+    width: 85px;
+    height: 35px;
+    margin-right: 20px;
+    transition: transform 1s ease;
+}
+
+#btn-form-2 {
+    color: white;
+    font-size: 15px;
+    border: 1px solid rgb(231, 6, 6);
+    background-color: rgb(231, 6, 6);
+    border-radius: 10px 0 10px 0;
+    width: 85px;
+    height: 35px;
+    transition: transform 1s ease;
+}
+
+.boton-form:hover {
+    transform: scale(1.1);
+}
+
+.pagina_coacheo {
+    display: grid;
+    grid-template-areas: 
+    "contenido";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.body_pagina_coacheo {
+    width: 100%;
+} */
+
+/* FOOTER ------------------------------------------------------------------------------------------------------------- */
+/* footer {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-areas:
+    "footer1 footer2";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    border: 4px solid var(--color-dorado);
+    background-color: var(--color-azul);
+    border-radius: 10px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 17px;
+    background-color: var(--color-azul);
+}
+
+footer h3 {
+    color: var(--color-dorado);
+    font-size: 25px;
+    background-color: var(--color-azul);
+}
+
+.info_foot{
+    grid-area: footer1;
+    padding: 25px;
+    background-color: var(--color-azul);
+}
+
+#num_tel::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    align-items: auto;
+    background-image: url(imagenes/logo-telefono.webp);
+    border-radius: 50%;
+    background-size: contain;
+    list-style-position: inside;
+    margin-right: 3px;
+}
+
+#nom_gmail::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    align-items: auto;
+    background-image: url(imagenes/logo_mail.webp);
+    border-radius: 50%;
+    background-size: contain;
+    list-style-position: inside;
+    margin-right: 3px; 
+}
+
+.info_foot_2 {
+    grid-area: footer2;
+    padding: 25px;
+    background-color: var(--color-azul);
+}
+
+.info_foot_2 p::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    align-items: auto;
+    background-image: url(imagenes/logo_ig_3.jpg);
+    border-radius: 8px;
+    background-size: contain;
+    list-style-position: inside;
+    margin-right: 3px;
+}
+
+.info_foot_2 a {
+    background-color: var(--color-azul);
+} */
+
+/* SEGMENTO RESPONSIVE ---------------------------------------------------------------------------------------------------- */
+
+/* @media (max-width: 768px) and (min-width: 481px) {
+    .clase_responsive {
+        width: 100%;
+    }
+    .titulo {
+        margin-left: 6px;
+    }
+    .texto_titulo {
+        font-size: 30px;
+    }
+    main {
+        grid-template-columns: 140px 1fr;
+    }
+    .espacio-publicidad {
+        width: 100%;
+        padding: 25px 3px 25px 3px;
+    }
+    .espacio-publicidad video {
+        height: 600px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .barra_nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        word-spacing: 0;
+    }
+    .titulos_generales {
+        font-size: 25px;
+    }
+    .contenido-1 {
+        width: 95%;
+        text-align: justify;
+    }
+    .contenido-2 {
+        width: 95%;
+        overflow: hidden;
+    }
+    .build {
+        width: 80%;
+        overflow: hidden;
+    }
+    .formulario {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario p {
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .sub-tit-form h3 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 558px) {
+    .clase_responsive {
+        width: 100%;
+    }
+    .titulo {
+        margin-left: 6px;
+    }
+    .texto_titulo {
+        font-size: 20px;
+    }
+    .barra_nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        display: none;
+        word-spacing: 0;
+    }
+    .btn_despliege {
+        user-select:all;
+    }
+    .simbolo_despliege {
+        display: inline-block;
+    }
+    .btn_despliege:checked + nav {
+            display: flex;
+            flex-direction: column;
+    }
+    .espacio-publicidad {
+        width: 100%;
+        padding: 25px 3px 25px 3px;
+    }
+    .espacio-publicidad video {
+        height: 600px;
+        object-fit: cover;
+        width: 100%;
+    }
+    .titulos_generales {
+        font-size: 16px;
+    }
+    .contenido-1 {
+        width: 95%;
+        text-align: justify;
+        font-size: 14px;
+    }
+    .contenido-2 {
+        width: 95%;
+        overflow: hidden;
+    }
+    .segmento {
+        font-size: 12px;
+    }
+    .build {
+        width: 80%;
+        overflow: hidden;
+    }
+    .formulario {
+        width: 98%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario p {
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .sub-tit-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: auto;
+    }
+    .sub-tit-form h3 {
+        text-align: center;
+    }
+    .input-elec {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    }
+
+    #btn_vovler {
+        text-align: center;
+    }
+} */
