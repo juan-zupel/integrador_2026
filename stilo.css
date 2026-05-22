@@ -1,5 +1,5 @@
 /*VARIABLES -------------------------------------------------------------------------------------------------------------- */
-/* :root {
+:root {
     --color-dorado: rgb(227, 227, 14);
     --color-fondo: rgb(31, 28, 35);
     --color-azul: rgb(28, 51, 164);
@@ -11,10 +11,10 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-} */
+}
 
 /*ATRIBUTOS GENERALES ---------------------------------------------------------------------------------------------------- */
-/* * {
+{
     background-color: var(--color-fondo);
 }
 
@@ -70,10 +70,10 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     filter: brightness(2);
-} */
+}
 
 /* HEADER ------------------------------------------------------------------------------------------------------------- */
-/* header {
+header {
     width: 100%;
     position: relative;
     margin-bottom: 5px;
@@ -136,7 +136,7 @@ nav {
 .btn_despliege {
     display: none;
     user-select: none;
-} */
+}
 
 /* MAIN --------------------------------------------------------------------------------------------------------------- */
 /* main {
