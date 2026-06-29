@@ -165,14 +165,12 @@ main {
 /* ASIDE -------------------------------------------------------------------------------------------------------------- */
 #btn_desplegar-replegar_anuncio {
     display: block;
-    width: auto;
     height: 30px;
-    font-size: auto;
     margin-left: auto;
     margin-right: auto;
+    font-size: auto;
     color: white;
     background-color: #5090e3;
-    /* background-color: var(--color-azul); */
     border: 1px solid black;
     border-radius: 6px;
     overflow: hidden;
@@ -210,6 +208,29 @@ main {
 }
 
 /* CONTENIDO DE TUTORIALES ------------------------------------------------------------------------------------------- */
+
+.tit-btn-fusion {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tituloTutorial-botonDespliegue {
+    display: flex;
+}
+
+.btn_desplegar-replegar_tutorial {
+    display: block;
+    width: auto;
+    height: 30px;
+    font-size: auto;
+    color: white;
+    background-color: #5090e3;
+    border: 1px solid black;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
 .contenido-1 {
     grid-area: contenido-1;
     padding: 25px;
@@ -225,7 +246,12 @@ main {
     text-align: justify;
 }
 
+.titulo-segmento {
+    display: none;
+}
+
 .segmento-guia {
+    height: "40px";
     border: 5px ridge var(--color-dorado);
     background-color: var(--color-azul-claro);
     margin: 15px;
@@ -258,6 +284,7 @@ main {
 }
 
 .segmento {
+    display: "none";
     border-top: 2px solid var(--color-dorado);
     background-color: var(--color-azul-claro);
     color: black;
