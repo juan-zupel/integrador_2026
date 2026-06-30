@@ -15,7 +15,7 @@ function DesplegarReplegarAnuncio() {
         })
     }else {
         btnDesplegarReplegarAnuncio.textContent = "⬅️";
-        espacioPublicidad.style.width = "100%";
+        espacioPublicidad.style.width = "180px";
         publicidadIndividual.forEach(anuncio => {
             anuncio.style.display = "block";
             // anuncio.style.userSelect = "auto";
@@ -50,9 +50,7 @@ function DesplegarReplegarTutorial_1() {
         });
     }
 }
-
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 const btnDesplegarReplegarTutoriales_2 = document.getElementById("btn-desp/rep-tuto-2");
 const segmentoGuia_2 = document.getElementById("segmento-guia-2");
 const segmento_2 = document.querySelectorAll(".segmento-2");
@@ -76,9 +74,7 @@ function DesplegarReplegarTutorial_2() {
         });
     }
 }
-
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 const btnDesplegarReplegarTutoriales_3 = document.getElementById("btn-desp/rep-tuto-3");
 const segmentoGuia_3 = document.getElementById("segmento-guia-3");
 const segmento_3 = document.querySelectorAll(".segmento-3");
@@ -102,9 +98,7 @@ function DesplegarReplegarTutorial_3() {
         });
     }
 }
-
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 const btnDesplegarReplegarTutoriales_4 = document.getElementById("btn-desp/rep-tuto-4");
 const segmentoGuia_4 = document.getElementById("segmento-guia-4");
 const segmento_4 = document.querySelectorAll(".segmento-4");
@@ -128,9 +122,7 @@ function DesplegarReplegarTutorial_4() {
         });
     }
 }
-
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
 const btnDesplegarReplegarTutoriales_5 = document.getElementById("btn-desp/rep-tuto-5");
 const segmentoGuia_5 = document.getElementById("segmento-guia-5");
 const segmento_5 = document.querySelectorAll(".segmento-5");
