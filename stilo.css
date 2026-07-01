@@ -230,7 +230,67 @@ main {
     border-radius: 6px;
     overflow: hidden;
 }
+/* -------------------------------------- */
+#segmento-guia-1 {
+    height: 40px;
+}
 
+#titulo-segmento-1 {
+    display: none;
+}
+
+.segmento-1 {
+    display: none;
+}
+/* -------------------------------------- */
+#segmento-guia-2 {
+    height: 40px;
+}
+
+#titulo-segmento-2 {
+    display: none;
+}
+
+.segmento-2 {
+    display: none;
+}
+/* -------------------------------------- */
+#segmento-guia-3 {
+    height: 40px;
+}
+
+#titulo-segmento-3 {
+    display: none;
+}
+
+.segmento-3 {
+    display: none;
+}
+/* -------------------------------------- */
+#segmento-guia-4 {
+    height: 40px;
+}
+
+#titulo-segmento-4 {
+    display: none;
+}
+
+.segmento-4 {
+    display: none;
+}
+/* -------------------------------------- */
+#segmento-guia-5 {
+    height: 40px;
+}
+
+#titulo-segmento-5 {
+    display: none;
+}
+
+.segmento-5 {
+    display: none;
+}
+/* -------------------------------------- */
 .contenido-1 {
     grid-area: contenido-1;
     padding: 25px;
@@ -388,7 +448,6 @@ form label {
     width: 85px;
     height: 35px;
     margin-right: 20px;
-    transition: transform 1s ease;
 }
 
 #btn-form-2 {
@@ -399,11 +458,6 @@ form label {
     border-radius: 10px 0 10px 0;
     width: 85px;
     height: 35px;
-    transition: transform 1s ease;
-}
-
-.boton-form:hover {
-    transform: scale(1.1);
 }
 
 .pagina_coacheo {

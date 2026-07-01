@@ -34,19 +34,19 @@ const tituloSegmento_1 = document.getElementById("titulo-segmento-1");
 btnDesplegarReplegarTutoriales_1.addEventListener("click", DesplegarReplegarTutorial_1);
 
 function DesplegarReplegarTutorial_1() {
-    if (btnDesplegarReplegarTutoriales_1.textContent !== "⬇️") {
-        btnDesplegarReplegarTutoriales_1.textContent = "⬇️";
-        tituloSegmento_1.style.display = "none";
-        segmentoGuia_1.style.height = "40px";
-        segmento_1.forEach(seg => {
-            seg.style.display = "none";
-        });
-    }else {
+    if (btnDesplegarReplegarTutoriales_1.textContent !== "⬆️") {
         btnDesplegarReplegarTutoriales_1.textContent = "⬆️";
         tituloSegmento_1.style.display = "block";
         segmentoGuia_1.style.height = "auto";
         segmento_1.forEach(seg => {
             seg.style.display = "block";
+        });
+    }else {
+        btnDesplegarReplegarTutoriales_1.textContent = "⬇️";
+        tituloSegmento_1.style.display = "none";
+        segmentoGuia_1.style.height = "40px";
+        segmento_1.forEach(seg => {
+            seg.style.display = "none";
         });
     }
 }
@@ -58,19 +58,19 @@ const tituloSegmento_2 = document.getElementById("titulo-segmento-2");
 btnDesplegarReplegarTutoriales_2.addEventListener("click", DesplegarReplegarTutorial_2);
 
 function DesplegarReplegarTutorial_2() {
-    if (btnDesplegarReplegarTutoriales_2.textContent !== "⬇️") {
-        btnDesplegarReplegarTutoriales_2.textContent = "⬇️";
-        tituloSegmento_2.style.display = "none";
-        segmentoGuia_2.style.height = "40px";
-        segmento_2.forEach(seg => {
-            seg.style.display = "none";
-        });
-    }else {
+    if (btnDesplegarReplegarTutoriales_2.textContent !== "⬆️") {
         btnDesplegarReplegarTutoriales_2.textContent = "⬆️";
         tituloSegmento_2.style.display = "block";
         segmentoGuia_2.style.height = "auto";
         segmento_2.forEach(seg => {
             seg.style.display = "block";
+        });
+    }else {
+        btnDesplegarReplegarTutoriales_2.textContent = "⬇️";
+        tituloSegmento_2.style.display = "none";
+        segmentoGuia_2.style.height = "40px";
+        segmento_2.forEach(seg => {
+            seg.style.display = "none";
         });
     }
 }
@@ -82,19 +82,19 @@ const tituloSegmento_3 = document.getElementById("titulo-segmento-3");
 btnDesplegarReplegarTutoriales_3.addEventListener("click", DesplegarReplegarTutorial_3);
 
 function DesplegarReplegarTutorial_3() {
-    if (btnDesplegarReplegarTutoriales_3.textContent !== "⬇️") {
-        btnDesplegarReplegarTutoriales_3.textContent = "⬇️";
-        tituloSegmento_3.style.display = "none";
-        segmentoGuia_3.style.height = "40px";
-        segmento_3.forEach(seg => {
-            seg.style.display = "none";
-        });
-    }else {
+    if (btnDesplegarReplegarTutoriales_3.textContent !== "⬆️") {
         btnDesplegarReplegarTutoriales_3.textContent = "⬆️";
         tituloSegmento_3.style.display = "block";
         segmentoGuia_3.style.height = "auto";
         segmento_3.forEach(seg => {
             seg.style.display = "block";
+        });
+    }else {
+        btnDesplegarReplegarTutoriales_3.textContent = "⬇️";
+        tituloSegmento_3.style.display = "none";
+        segmentoGuia_3.style.height = "40px";
+        segmento_3.forEach(seg => {
+            seg.style.display = "none";
         });
     }
 }
@@ -106,19 +106,19 @@ const tituloSegmento_4 = document.getElementById("titulo-segmento-4");
 btnDesplegarReplegarTutoriales_4.addEventListener("click", DesplegarReplegarTutorial_4);
 
 function DesplegarReplegarTutorial_4() {
-    if (btnDesplegarReplegarTutoriales_4.textContent !== "⬇️") {
-        btnDesplegarReplegarTutoriales_4.textContent = "⬇️";
-        tituloSegmento_4.style.display = "none";
-        segmentoGuia_4.style.height = "40px";
-        segmento_4.forEach(seg => {
-            seg.style.display = "none";
-        });
-    }else {
+    if (btnDesplegarReplegarTutoriales_4.textContent !== "⬆️") {
         btnDesplegarReplegarTutoriales_4.textContent = "⬆️";
         tituloSegmento_4.style.display = "block";
         segmentoGuia_4.style.height = "auto";
         segmento_4.forEach(seg => {
             seg.style.display = "block";
+        });
+    }else {
+        btnDesplegarReplegarTutoriales_4.textContent = "⬇️";
+        tituloSegmento_4.style.display = "none";
+        segmentoGuia_4.style.height = "40px";
+        segmento_4.forEach(seg => {
+            seg.style.display = "none";
         });
     }
 }
@@ -130,19 +130,19 @@ const tituloSegmento_5 = document.getElementById("titulo-segmento-5");
 btnDesplegarReplegarTutoriales_5.addEventListener("click", DesplegarReplegarTutorial_5);
 
 function DesplegarReplegarTutorial_5() {
-    if (btnDesplegarReplegarTutoriales_5.textContent !== "⬇️") {
-        btnDesplegarReplegarTutoriales_5.textContent = "⬇️";
-        tituloSegmento_5.style.display = "none";
-        segmentoGuia_5.style.height = "40px";
-        segmento_5.forEach(seg => {
-            seg.style.display = "none";
-        });
-    }else {
+    if (btnDesplegarReplegarTutoriales_5.textContent !== "⬆️") {
         btnDesplegarReplegarTutoriales_5.textContent = "⬆️";
         tituloSegmento_5.style.display = "block";
         segmentoGuia_5.style.height = "auto";
         segmento_5.forEach(seg => {
             seg.style.display = "block";
+        });
+    }else {
+        btnDesplegarReplegarTutoriales_5.textContent = "⬇️";
+        tituloSegmento_5.style.display = "none";
+        segmentoGuia_5.style.height = "40px";
+        segmento_5.forEach(seg => {
+            seg.style.display = "none";
         });
     }
 }

@@ -1,7 +1,7 @@
 /* FUNCIÓN DE ALERTA (FORMULARIO ENVIADO CON EXITO) && FUNCIÓN MANEJADORA DE DATOS DEL FORMULARIO -------------------- */
 
 const formulario = document.getElementById("formulario");
-let usuario = [];
+const usuario = [];
 
 formulario.addEventListener("submit", function(event) {
 
@@ -40,7 +40,7 @@ formulario.addEventListener("submit", function(event) {
         ValidarRespuesta(coach);
         ValidarRespuesta(objetivo);
 
-        usuario = [];
+        usuario.length = 0;
 
         usuario.push(nombre);
         usuario.push(email);
@@ -71,4 +71,28 @@ formulario.addEventListener("submit", function(event) {
 
     }
 
+});
+
+
+/* APARTADO DE ANIMACIÓN DINAMICA PARA BOTONES DEL FORMULARIO -------------------------------------------------------- */
+
+const btnSubmit = document.getElementById("btn-form-1");
+const btnReset = document.getElementById("btn-form-2");
+
+btnSubmit.addEventListener("mouseover", function() {
+    btnSubmit.style.transition = "transform 1s ease";
+    btnSubmit.style.transform = "scale(1.1)";
+});
+btnReset.addEventListener("mouseover", function() {
+    btnReset.style.transition = "transform 1s ease";
+    btnReset.style.transform = "scale(1.1)";
+});
+
+btnSubmit.addEventListener("mouseout", function() {
+    btnSubmit.style.transition = "transform 1s ease";
+    btnSubmit.style.transform = "scale(1)";
+});
+btnReset.addEventListener("mouseout", function() {
+    btnReset.style.transition = "transform 1s ease";
+    btnReset.style.transform = "scale(1)";
 });
