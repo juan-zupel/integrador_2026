@@ -146,3 +146,67 @@ function DesplegarReplegarTutorial_5() {
         });
     }
 }
+
+/* FUNCIÓN DE FILTRADO DE TUTORIALES POR CAMPEON ----------------------------------------------------------------------------- */
+
+const titulos = document.querySelectorAll(".titulo-segmento");
+const select = document.getElementById("select_busqueda_avanzada");
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    CargarBusquedaAvanzada();
+});
+
+function CargarBusquedaAvanzada() {
+    
+    let medidor = 1;
+    titulos.forEach(t => {
+        select.options[medidor].text = t.textContent;
+        select.options[medidor].value = t.id;
+        medidor ++;
+    })
+}
+
+const btnBusquedaAvanzada = document.getElementById("btn_busqueda_avanzada");
+btnBusquedaAvanzada.addEventListener("click", function() {
+    DesplegarTutoriales();
+    BuscarTutorial();
+});
+
+function DesplegarTutoriales() {
+    if (btnDesplegarReplegarTutoriales_1.textContent !== "⬆️") {
+        DesplegarReplegarTutorial_1();
+    }
+    
+    if (btnDesplegarReplegarTutoriales_2.textContent !== "⬆️") {
+        DesplegarReplegarTutorial_2();
+    }
+    
+    if (btnDesplegarReplegarTutoriales_3.textContent !== "⬆️") {
+        DesplegarReplegarTutorial_3();
+    }
+    
+    if (btnDesplegarReplegarTutoriales_4.textContent !== "⬆️") {
+        DesplegarReplegarTutorial_4();
+    }
+    
+    if (btnDesplegarReplegarTutoriales_5.textContent !== "⬆️") {
+        DesplegarReplegarTutorial_5();
+    }
+}
+
+function BuscarTutorial() {
+    location.hash = select.value;
+}
+
+/* FUNCIÓN DE FILTRADO DE TUTORIALES POR CAMPEON ----------------------------------------------------------------------------- */
+
+
+btnBusquedaAvanzada.addEventListener("mouseover", function() {
+    btnBusquedaAvanzada.style.transition = "transform 1s ease";
+    btnBusquedaAvanzada.style.transform = "scale(1.1)";
+});
+btnBusquedaAvanzada.addEventListener("mouseout", function() {
+    btnBusquedaAvanzada.style.transition = "transform 1s ease";
+    btnBusquedaAvanzada.style.transform = "scale(1)";
+});

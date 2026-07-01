@@ -138,6 +138,40 @@ nav {
     user-select: none;
 }
 
+.busqueda_avanzada {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+#label_busqueda_avanzada {
+    margin-left: auto;
+    color: var(--color-dorado);
+    font-size: 20px;
+}
+
+#select_busqueda_avanzada {
+    background-color: white;
+    width: 170px;
+    text-align: center;
+}
+
+.opcion_busqueda {
+    background-color: white;
+    text-align: center;
+}
+
+#btn_busqueda_avanzada {
+    margin-right: auto;
+    border: 3px ridge var(--color-dorado);
+    border-radius: 5px 0 5px 0;
+    background-color: var(--color-azul-claro);
+    width: 80px;
+    height: 30px;
+
+}
+
 /* MAIN --------------------------------------------------------------------------------------------------------------- */
 main {
     width: 100%;
